@@ -61,7 +61,20 @@ Key design decisions:
 4. **Fulfillment P&L** — monthly revenue/cost/margin, cost breakdown, vendor profitability
 ![Fulfillment P&L Dashboard](Metabase%20Dashboard/Fulfillment_P&L.png)
 ---
+## 📈 Key Findings & Recommendations
 
+*(Based on the generated dataset — replace with real figures if used against live company data)*
+
+| Finding | Number | Recommendation |
+|---|---|---|
+| **RTO rate** | 13.9% of all orders | Above healthy e-commerce benchmark (~5-10%). Focus on top failure reasons (customer unavailable, wrong address) with pre-delivery confirmation calls/SMS |
+| **RTV rate** | 3.2% of delivered orders | Concentrated in specific product categories — route those SKUs through stricter QC before dispatch |
+| **Return cost impact** | 1.39M EGP over 2 years | Roughly equivalent to running 2-3 extra hubs for a year — a measurable P&L lever, not a rounding error |
+| **Overall margin** | 58.4% | Healthy, but delivery cost is the largest controllable line — small courier-cost-per-order improvements compound at this volume |
+| **Vehicle cost efficiency** | Motorcycles: 1.52 EGP/km vs. Trucks: 3.28 EGP/km | Route optimization should favor motorcycles/vans for short-haul hub transfers where load permits, reserving trucks for high-volume long-haul only |
+| **Seasonality** | Peak months run ~1.7x average monthly volume | Warehouse and courier capacity planning should build in a 70%+ buffer ahead of Black Friday and Eid periods, not just linear headcount scaling |
+
+---
 ## 🔄 Live Google Sheets Integration
 
 A Python script pulls live data from PostgreSQL and pushes it to a shared Google Sheet using a service account — no manual export needed. Covers:
@@ -166,7 +179,24 @@ Career changer from an Accounting background into Data Analytics & AI Engineerin
 5. **الأرباح والخسائر** — الإيراد/التكلفة/الهامش الشهري، تفصيل التكلفة، ربحية التجار
 
 ---
+## 📈 أهم الاستنتاجات والتوصيات
 
+*(مبنية على البيانات المولّدة — استبدلها بالأرقام الحقيقية لو استخدمت المشروع على بيانات شركة فعلية)*
+
+| الاستنتاج | الرقم | التوصية |
+|---|---|---|
+| **معدل RTO** | 13.9% من كل الطلبات | أعلى من المعدل الصحي المعتاد في التجارة الإلكترونية
+(~5-10%)
+. لازم نركّز على أعلى أسباب الفشل
+(عدم توفر العميل، عنوان خطأ)
+عن طريق تأكيد قبل التوصيل برسالة أو مكالمة |
+| **معدل RTV** | 3.2% من الطلبات الموصلة | متركّز في فئات منتجات معينة — لازم فحص جودة أشد على المنتجات دي قبل الشحن |
+| **تكلفة المرتجعات** | 1.39 مليون جنيه على مدار سنتين | تقريبًا بتساوي تشغيل 2-3 محاور إضافية لمدة سنة — رقم فعلي مؤثر على الأرباح مش تفصيلة بسيطة |
+| **الهامش الإجمالي** | 58.4% | صحي، لكن تكلفة التوصيل هي أكبر بند قابل للتحكم — أي تحسين بسيط في تكلفة الكابتن لكل أوردر بيتضاعف أثره مع الحجم ده |
+| **كفاءة المركبات** | الموتوسيكل: 1.52 جنيه/كم مقابل التراك: 3.28 جنيه/كم | تخطيط المسارات لازم يفضّل الموتوسيكلات/الفانات في النقل القصير بين المحاور لما الحمولة تسمح، ويسيب التراكات للأحمال الكبيرة والمسافات الطويلة بس |
+| **الموسمية** | شهور الذروة بتوصل لـ 1.7 ضعف متوسط الشهر العادي | تخطيط سعة المخازن والكباتن لازم يحسب هامش أمان 70%+ قبل الجمعة البيضاء والأعياد، مش بس زيادة خطية في عدد الموظفين |
+
+---
 ## 🔄 الربط الحي بـ Google Sheets
 
 سكريبت Python بيسحب بيانات حية من PostgreSQL ويكتبها في Google Sheet مشترك عن طريق Service Account، من غير أي تصدير يدوي. بيغطي:
