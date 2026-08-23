@@ -53,7 +53,7 @@ Key design decisions:
 ## 📊 Dashboards (Metabase)
 
 1. **RTO/RTV Analysis** — monthly return rate trends, top return reasons, category & hub breakdown
-![RTO RTV](Metabase_Dashboard/RTO RTV Analysis.png)
+![RTO RTV Dashboard](Metabase%20Dashboard/RTO_RTV_Analysis.png)
 2. **Middle-Mile Analysis** — cost efficiency by vehicle type, top-cost routes, reliability metrics
  
 3. **Demand Planning** — reorder alerts, forecast accuracy, warehouse-level stock health
