@@ -1,0 +1,12 @@
+product_name,category,warehouse_name,current_quantity,reorder_point,safety_stock,stock_status
+Tea Pack - DarkGray,Groceries,Damietta Warehouse,11,13,8,Reorder Now
+First Aid Kit - LightSeaGreen,Health,Fayoum Warehouse,11,12,5,Reorder Now
+Running Shoes - BlanchedAlmond,Sports & Outdoors,Giza Warehouse,11,12,6,Reorder Now
+Curtains - Green,Home & Kitchen,Suez Warehouse,11,13,6,Reorder Now
+Baby Bottle - PaleVioletRed,Toys & Baby,Assiut Warehouse,12,12,5,Reorder Now
+Vitamin Pack - Yellow,Health,Fayoum Warehouse,13,13,6,Reorder Now
+Smart Watch - DeepPink,Electronics,Alexandria Warehouse,13,13,5,Reorder Now
+Dumbbell Set - MidnightBlue,Sports & Outdoors,Sohag Warehouse,13,14,5,Reorder Now
+Blood Pressure Monitor - LightPink,Health,Beni Suef Warehouse,14,14,8,Reorder Now
+Curtains - Pink,Home & Kitchen,Tanta Warehouse,14,14,6,Reorder Now
+Backpack - Ivory,Books & Stationery,Ismailia Warehouse,15,17,8,Reorder Now

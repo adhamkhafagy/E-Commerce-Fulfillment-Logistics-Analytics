@@ -1,0 +1,28 @@
+# Credentials - NEVER commit these
+service_account.json
+*credentials*.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+env/
+
+# Logs
+sync_log.txt
+*.log
+
+# Large generated data (optional - uncomment if you don't want to push CSVs to GitHub)
+# csv_data/
+# *.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
