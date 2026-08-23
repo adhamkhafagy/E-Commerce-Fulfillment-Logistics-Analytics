@@ -83,22 +83,7 @@ A Python script pulls live data from PostgreSQL and pushes it to a shared Google
 
 Can be scheduled to refresh automatically (Task Scheduler / cron).
 
----
 
-## 📁 Project Structure
-
-```
-├──Metabase_Dashboard/
-    ├──
-├── sql_reports/
-│   ├── rto_rtv_analysis.sql
-│   ├── middle_mile_efficiency.sql
-│   ├── demand_planning.sql
-│   └── fulfillment_pnl.sql
-├── google_sheets_sync/
-│   └── live_sheets_connector.py     # Live PostgreSQL → Sheets sync
-└── README.md
-```
 
 ---
 
