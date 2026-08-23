@@ -55,11 +55,11 @@ Key design decisions:
 1. **RTO/RTV Analysis** — monthly return rate trends, top return reasons, category & hub breakdown
 ![RTO RTV Dashboard](Metabase%20Dashboard/RTO_RTV_Analysis.png)
 2. **Middle-Mile Analysis** — cost efficiency by vehicle type, top-cost routes, reliability metrics
- 
+![Middle-Mile Dashboard](Metabase%20Dashboard/Middle_Mile_Analysis.png)
 3. **Demand Planning** — reorder alerts, forecast accuracy, warehouse-level stock health
-
+![Demand Planning Dashboard](Metabase%20Dashboard/Demand_Planning.png)
 4. **Fulfillment P&L** — monthly revenue/cost/margin, cost breakdown, vendor profitability
-
+![Fulfillment P&L Dashboard](Metabase%20Dashboard/Fulfillment_P&L.png)
 ---
 
 ## 🔄 Live Google Sheets Integration
@@ -160,10 +160,10 @@ Career changer from an Accounting background into Data Analytics & AI Engineerin
 
 ## 📊 الداشبوردات
 
-1. **تحليل RTO/RTV** — اتجاه معدل المرتجعات الشهري، أعلى الأسباب، تفصيل حسب الفئة والمحور
-2. **تحليل النقل بين المحاور** — كفاءة التكلفة حسب نوع المركبة، أعلى المسارات تكلفة، مؤشرات الموثوقية
-3. **تخطيط الطلب** — تنبيهات إعادة الطلب، دقة التوقع، صحة المخزون حسب المخزن
-4. **الأرباح والخسائر** — الإيراد/التكلفة/الهامش الشهري، تفصيل التكلفة، ربحية التجار
+1. **تحليلRTO/RTV** — اتجاه معدل المرتجعات الشهري، أعلى الأسباب، تفصيل حسب الفئة والمحور
+3. **تحليل النقل بين المحاور** — كفاءة التكلفة حسب نوع المركبة، أعلى المسارات تكلفة، مؤشرات الموثوقية
+4. **تخطيط الطلب** — تنبيهات إعادة الطلب، دقة التوقع، صحة المخزون حسب المخزن
+5. **الأرباح والخسائر** — الإيراد/التكلفة/الهامش الشهري، تفصيل التكلفة، ربحية التجار
 
 ---
 
