@@ -72,8 +72,8 @@ Can be scheduled to refresh automatically (Task Scheduler / cron).
 ## 📁 Project Structure
 
 ```
-├── schema/
-│   └── fulfillment_schema_full.sql  # Full DDL (tables, constraints, indexes, view)
+├──Metabase_Dashboard/
+    ├──
 ├── sql_reports/
 │   ├── rto_rtv_analysis.sql
 │   ├── middle_mile_efficiency.sql
